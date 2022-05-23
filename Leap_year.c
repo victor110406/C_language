@@ -5,16 +5,16 @@ int main() {
 	int year;
 	bool result;
 
-	printf("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+	printf("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 	scanf_s("%d", &year);
 
 	result = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
 
 	if (result) {
-		printf("%d³âÀº À±³âÀÔ´Ï´Ù.", year);
+		printf("%dë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤.", year);
 	}
 	else {
-		printf("%d³âÀº À±³âÀÌ ¾Æ´Õ´Ï´Ù.", year);
+		printf("%dë…„ì€ ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤.", year);
 	}
 
 	return 0;
