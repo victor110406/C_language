@@ -5,12 +5,12 @@ int main() {
 	float radius;  
 	float area;   
 
-	printf("¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%f", &radius);
 
 	area = 3.14f * radius * radius;
 
-	printf("¿øÀÇ ¸éÀû: %f", area);
+	printf("ì›ì˜ ë©´ì : %f", area);
 
 	return 0;
 }
