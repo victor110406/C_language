@@ -11,7 +11,7 @@ int main() {
 
 	sum = x + y;
 
-	printf("µÎ¼öÀÇ ÇÕ: %d", sum);
+	printf("두수의 합: %d", sum);
 
 	return 0;
 }
