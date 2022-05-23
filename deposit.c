@@ -5,11 +5,11 @@ int main() {
 	int salary;
 	int deposit;
 
-	printf("¿ù±ŞÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì›”ê¸‰ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf_s("%d", &salary);
 	deposit = 12 * salary;
 
-	printf("¿¬ºÀÀº: %d¿ø ÀÔ´Ï´Ù\n", deposit);
+	printf("ì—°ë´‰ì€: %dì› ì…ë‹ˆë‹¤\n", deposit);
 
 	return 0;
 }
