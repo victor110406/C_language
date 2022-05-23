@@ -11,7 +11,7 @@ int main() {
 
 	sum = x + y;
 
-	printf("µÎ¼öÀÇ ÇÕ: %d", sum);
+	printf("ÂµÃŽÂ¼Ã¶Ã€Ã‡ Ã‡Ã•: %d", sum);
 
 	return 0;
 }
