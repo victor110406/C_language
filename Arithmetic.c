@@ -4,7 +4,7 @@ int main() {
 
 	int x, y, result;
 
-	printf("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+	printf("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 	scanf_s("%d %d", &x, &y);
 
 	result = x + y;
